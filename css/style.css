@@ -2,4 +2,83 @@
     margin: 0;
     padding: 0;
     border: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+/*body{
+    background-color: grey;
+}*/
+
+   /* HEADER */
+/** NAVIGATION **/
+
+header{
+    margin-bottom: 40px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #383E4C;
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    margin: 10px 10px;
+    padding: 15px 20px;
+    border: 1px rgb(110, 110, 110) solid;
+    font-size: 1.4rem;
+    color: white;
+    transition: 0.5s;
+}
+.nav:hover{
+    background-color: #49505F;
+}
+
+/** TITLE **/
+
+.title{
+    background-image: url(../img/bg-1.jpg);
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+}
+.title h1{
+    font-size: 4rem;
+    text-shadow: black 1.5px 1.5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.title h2{
+    font-size: 1.6rem;
+    text-shadow: black 1px 1px;
+    font-weight: normal;
+}
+
+   /* MAIN */
+/** ABOUT US **/
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;justify-content: center;
+}
+
+.box{
+    width: 360px;
+    margin: 30px 15px;
+    background-color: #F2F2F2;
+}
+
+.column{
+    width: 555px;
+    margin: 30px 15px;
+    background-color: #F2F2F2;
 }
