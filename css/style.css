@@ -15,8 +15,8 @@
    /* HEADER */
 /** NAVIGATION **/
 
-header{
-    margin-bottom: 40px;
+section{
+    margin: 80px 0;
 }
 
 nav{
@@ -44,14 +44,10 @@ nav{
 /** TITLE **/
 
 .title{
-    background-image: url(../img/bg-1.jpg);
     color: white;
     text-align: center;
-    padding: 300px 0;
 }
 .title h1{
-    font-size: 4rem;
-    text-shadow: black 1.5px 1.5px;
     font-weight: normal;
     margin-bottom: 5px;
 }
@@ -61,6 +57,17 @@ nav{
     font-weight: normal;
 }
 
+.title-font1{
+    font-size: 4rem;
+    text-shadow: black 1.5px 1.5px;
+
+}
+
+.background1{
+    background-image: url(../img/bg-1.jpg);
+    padding: 300px 0;
+}
+
    /* MAIN */
 /** ABOUT US **/
 
@@ -68,11 +75,12 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    margin: 60px 0;
 }
 
 .box{
     width: 360px;
-    margin: 30px 15px;
+    margin: 0 15px;
     background-color: #F2F2F2;
 }
 .box h1{
@@ -129,8 +137,6 @@ nav{
 }
 
 .column{
-    width: 555px;
-    margin: 30px 15px;
     background-color: #F2F2F2;
 }
 .column h1{
@@ -141,23 +147,194 @@ nav{
 .column p{
     color: #666666;
     margin: 30px;
-    padding: 0 20px;
     font-size: 1.05rem;
     line-height: 1.6rem;
 }
 
+.p-padding1{
+    padding: 0 20px;
+}
+
+.column-width1{
+    width: 555px;
+    margin: 0 15px;
+}
+
 .more{
-    width: 100px;
+    width: 90px;
     text-align: center;
     color: #5a5a5a;
     background-color: white;
     border-radius: 7px;
     border: 1px solid #cccccc;
     padding: 10px 25px;
-    margin: 20px auto;
     font-size: 1.2rem;
     display: block;
 }
 .more:hover{
     background-color: #E6E6E6;
+}
+
+.button-position1{
+    margin: 20px auto;
+}
+
+/** SERVICES **/
+
+.title p{
+    font-size: 1.3rem;
+    padding: 0 30%;
+}
+
+.title-font2{
+    font-size: 3rem;
+    text-shadow: #8b8b8b 1.5px 1.5px;
+}
+
+.background2{
+    background-image: url(../img/bg-2.jpg);
+    padding: 150px 0;
+}
+
+.column-width2{
+    width: 260px;
+    margin: 0 16.5px;
+}
+
+.big-column{
+    width: 1140px;
+    background-color: #F2F2F2;
+}
+.big-column h1{
+    color: #666666;
+    margin: 50px 0 0 30px;
+}
+.big-column p{
+    color: #666666;
+    margin: 15px 30px;
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+}
+
+.button-position2{
+    margin: 30px auto 30px 30px;
+}
+
+/** CONTACT **/
+
+
+.title-font3{
+    font-size: 3rem;
+    text-shadow: black 1.5px 1.5px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.background3{
+    background-image: url(../img/bg-1.jpg);
+    padding: 150px 0;
+}
+
+#p-contact{
+    font-size: 1.2rem;
+    margin: auto auto 20px auto;
+    padding: 20px 40px;
+    width: 650px;
+    line-height: 2rem;
+    background-color: #f2f2f279;
+    color: black;
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    flex-flow: column;
+}
+.input input{
+    padding: 10px 15px;
+    margin: 10px 20px;
+    width: 315px;
+    height: 23px;
+    background-color: #f2f2f279;
+    color: black;
+    border-radius: 5px;
+}
+.input input::placeholder{
+    color: black;
+}
+.input input:focus{
+    background-color: white;
+    box-shadow: 0 0 0.5em green;
+}
+
+.text-area{
+    display: flex;
+    flex-flow: column;
+}
+.text-area textarea{
+    padding: 10px 15px;
+    margin: 10px 20px;
+    width: 315px;
+    height: 111px;
+    background-color: #f2f2f279;
+    color: black;
+    border-radius: 5px;
+}
+.text-area textarea::placeholder{
+    color: black;
+}
+.text-area textarea:focus{
+    background-color: white;
+    box-shadow: 0 0 0.5em green;
+}
+
+.more2{
+    width: 60px;
+    text-align: center;
+    color: white;
+    background-color: #2e2e2e;
+    border-radius: 7px;
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin: 10px auto auto 20px;
+    font-size: 1.2rem;
+    display: block;
+    transition: 0.5s;
+}
+.more2:hover{
+    background-color: white;
+    color: black;
+}
+
+/* FOOTER */
+
+footer{
+    margin: 0 auto 120px;
+    text-align: center;
+}
+footer h1{
+    margin-bottom: 25px;
+    font-style: italic;
+}
+footer p{
+    font-style: italic;
+    color: #9e9e9e;
+    margin-bottom: 45px;
+}
+
+hr{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 25px;
+}
+
+small{
+    color: #2e2e2e;
 }
